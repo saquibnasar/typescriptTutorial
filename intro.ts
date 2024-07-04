@@ -1,4 +1,6 @@
-const user = {name: "saquib",age:19}
+const user = { name: "saquib", age: 19 };
 
-console.log("saquib")
-console.log(user.name)
+console.log("saquib");
+console.log(user.name);
+
+export {};
