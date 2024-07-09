@@ -2,11 +2,11 @@ const superHero: string[] = [];
 
 const way2superHero: Array<string> = [];
 
-type User = {
+type arrayUser = {
   name: string;
   isActive: boolean;
 };
-const allUser: User[] = [];
+const allUser: arrayUser[] = [];
 
 const mlModals: number[][] = [[2], [3], []];
 
