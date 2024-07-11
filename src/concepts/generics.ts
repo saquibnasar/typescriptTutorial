@@ -18,3 +18,13 @@ interface Bootled {
 }
 
 indentityFour<Bootled>({ brand: "bisleri", type: 3 });
+
+function getSearchProducts<T>(product: T[]): T {
+  const myIndex = 3;
+  return product[myIndex];
+}
+
+const getMoreSearchProducts = <T>(product: T[]): T => {
+  const myIndex = 3;
+  return product[myIndex];
+};
